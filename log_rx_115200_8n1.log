@@ -1,0 +1,147 @@
+▒configTOTAL_HEAP_ SIZE:102400
+interface 0 is initialized
+interface 1 is initialized
+
+Initializing WIFI ...
+WIFI initialized
+
+[01-01 18:12:15 TUYA Debug][uf_flash_file_app.c:107] aaa 0x1004ad98 0x1004ad a0
+[01-01 18:12:15 TUYA Debug][uf_flash_file_app.c:124] bbb
+[01-01 18:12:15 TUYA Info][mqc_app.c:332] mqc app init ...
+[01-01 18:12:15 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:sys _timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:cmm od,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA Info][sf_mqc_cb.c:42] register mqc app callback
+[01-01 18:12:15 TUYA Debug][mqc_app.c:141] mq_pro:5 mqc_handler_cnt:1
+[01-01 18:12:15 TUYA Debug][mqc_app.c:141] mq_pro:31 mqc_handler_cnt:2
+[01-01 18:12:15 TUYA Debug][log_seq.c:882] read from uf. max:0 first:0 last:0
+[01-01 18:12:15 TUYA Debug][svc_online_log.c:289] svc online log init success
+[01-01 18:12:15 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:wk_ th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:2145] start group scene serve
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:699] =====__group_scene_save_ini t=====
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:736] group scene flag file: grp_ sce_flag_file.
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:737] group scene file: grp_sce_s ave_file.
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:738] group scene back file: grp_ sce_save_bak_file.
+[01-01 18:12:15 TUYA Err][group_scene_serve.c:749] group scene flag file val: 0x 0.
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:553] flag:0, grp_sce_save_file,g rp_sce_save_file,grp_sce_save_bak_file.
+[01-01 18:12:15 TUYA Err][group_scene_serve.c:575] loade_group_scene_file_to_lis t.
+[01-01 18:12:15 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:grp _sce,stackDepth:2048,totalstackDepth:15360,priority:3
+[01-01 18:12:15 TUYA Debug][group_scene_serve.c:2167] end group scene serve
+[01-01 18:12:15 TUYA Debug][tuya_ws_db.c:444] init fs. Path: ▒▒▒
+[01-01 18:12:15 TUYA Debug][kv_storge.c:44] *****************kvs_init.
+[01-01 18:12:15 TUYA Notice][simple_flash.c:405] key_addr: 0x2ff000 block_sz 4 096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:494] get key:
+0xd1
+[01-01 18:12:17 TUYA Debug][rcd_flash_app.c:361] find sheet linkage_0
+[01-01 18:12:17 TUYA Debug][rcd_flash_app.c:361] find sheet sub_dev_schm
+[01-01 18:12:17 TUYA Debug][rcd_flash_app.c:361] find sheet sub_dev_ddi
+[01-01 18:12:17 TUYA Debug][rcd_flash_app.c:361] find sheet linkage_1
+[01-01 18:12:17 TUYA Notice][mf_test.c:364] have actived over 15 min, not enter mf_init
+[01-01 18:12:17 TUYA Notice][tuya_main.c:389] mf_init succ
+[01-01 18:12:17 TUYA Notice][tuya_main.c:392] mf_init succ
+[01-01 18:12:17 TUYA Debug][tuya_main.c:458] gwcm_mode 0
+[01-01 18:12:17 TUYA Debug][tuya_main.c:472] device_init in
+[01-01 18:12:17 TUYA Notice][tuya_device.c:893] APP_NAME:rtlam_zigbee_gw SOFT VE RSION:1.3.10.
+PT DEBUG:[tuya_prod_test_8711am.c]:[tuya_zigbee_prod_test_r_db:366]:read buf is: false,len:5
+PT ERR:[tuya_prod_test_8711am.c]:[tuya_prod_set_mac:173]:need not update wifi ma c
+
+[01-01 18:12:17 TUYA Err][tuya_device.c:898] tuya_prod_set_mac err:-1
+[01-01 18:12:17 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:ty_ key_process,stackDepth:1536,totalstackDepth:16896,priority:5
+[01-01 18:12:18 TUYA Info][tuya_app_hal_rtl8711am.c:304] hal_rtl8711am_led_init
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:ty_ led_process,stackDepth:1024,totalstackDepth:17920,priority:5
+[01-01 18:12:18 TUYA Info][tuya_device.c:963] tuya_test_is_no_need_run
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:del ay_queue,stackDepth:8192,totalstackDepth:26112,priority:3
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:slo w_queue,stackDepth:8192,totalstackDepth:34304,priority:2
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:ty_ zigbee_task,stackDepth:16384,totalstackDepth:50688,priority:5
+[01-01 18:12:18 TUYA Notice][rcd_flash_app.c:571] maxlen 51200, pagesz 64, sec_n um :1, 1 65535 65535
+
+0x00 ap len[10]
+sheet[sub_dev_ddi] secid info secnum:1
+pageid:36 secid:0 wpageidx:42 etynum:1 etyidx:1
+[0] secid :0x1, invalidnum : 36 0x10057518
+[01-01 18:12:18 TUYA Notice][rcd_flash_app.c:571] maxlen 51200, pagesz 64, sec_n um :1, 4 65535 65535
+
+0x00 ap len[10]
+sheet[sub_dev_schm] secid info secnum:1
+pageid:29 secid:0 wpageidx:58 etynum:1 etyidx:1
+[0] secid :0x4, invalidnum : 29 0x10057528
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:ty_ z3_msg,stackDepth:8192,totalstackDepth:58880,priority:5
+[01-01 18:12:18 TUYA Notice][tuya_z3_uf_file.c:62] =====devFileInit=====
+
+[01-01 18:12:18 TUYA Notice][tuya_z3_uf_file.c:67] fileFlag is 1
+
+[01-01 18:12:18 TUYA Notice][af-main-host.c:491] >>>Normal UART bootup with FLOW CTRL<<<
+[01-01 18:12:18 TUYA Info][serial-interface-uart.c:62] ezspInit start
+[01-01 18:12:18 TUYA Notice][tuya_driver.c:32] tuya driver find 2 port 0 addrss 0x1004b788
+RTL8195A[HAL]: ISR 8 had been allocated!!!
+[01-01 18:12:18 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:tuy a_z3_uart,stackDepth:2048,totalstackDepth:60928,priority:5
+[01-01 18:12:19 TUYA Info][serial-interface-uart.c:74] ezspInit success end
+[01-01 18:12:20 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:dev table,stackDepth:4096,totalstackDepth:65024,priority:3
+[01-01 18:12:20 TUYA Info][device-table.c:588] emAfDeviceTableSaveInit init end
+[01-01 18:12:20 TUYA Notice][device-table.c:804] read devices1.txt
+[01-01 18:12:20 TUYA Notice][device-table.c:856] read end
+[01-01 18:12:20 TUYA Info][ota-storage-linux.c:1126] ty getsize ncp/dev ota -2
+
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:1560] ufopen err,filename:zb_ncp_o ta1
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:1149] readImageHeader fail
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:395] addImageFileToList_TY failed
+
+[01-01 18:12:20 TUYA Info][ota-storage-linux.c:1126] ty getsize ncp/dev ota -2
+
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:1560] ufopen err,filename:zb_ncp_o ta1
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:1149] readImageHeader fail
+[01-01 18:12:20 TUYA Err][ota-storage-linux.c:395] addImageFileToList_TY failed
+
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:95] nodeEuiStr = ec1bbdfffe326c90.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:96] nodeId = 0x0000.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:97] panId = 0x48e2.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:98] channel = 0x14.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:99] ver = 1.0.3.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:100] netStatus = 0x02.
+[01-01 18:12:21 TUYA Notice][z3_slabs.c:106] netWorkKey: a7 b5 76 ac 9a e6 73 c5 f5 42 c3 b0 7b 6e c1 44
+
+[01-01 18:12:21 TUYA Info][tuya_z3_api_tmp.c:6248] [z3_judge_is_save_networkinfo :6248] nodeId:0.
+
+[01-01 18:12:21 TUYA Info][tuya_z3_api_tmp.c:6258] [z3_judge_is_save_networkinfo :6258] Network info has saved.
+
+[01-01 18:12:22 TUYA Info][tuya_device.c:1010] version via ota,not support home security
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4164] <gw_cntl_init>Last reset reason: 17 0
+[01-01 18:12:22 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:hea lth_monitor,stackDepth:1536,totalstackDepth:66560,priority:5
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4296] serial_no is not set
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4322] gw_cntl.gw_wsm.stat:1
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4325] gw_cntl.gw_wsm.nc_tp:2
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4326] gw_cntl.gw_wsm.md:0
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4392] gw_cntl.gw_if.abi:2 input:2
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4393] gw_cntl.gw_if.product_key:keyfa7hya 4gfa7g9, input:keyfa7hya4gfa7g9
+[01-01 18:12:22 TUYA Notice][gw_intf.c:4394] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:22 TUYA Info][gw_mqc_cb.c:698] register mqc app callback
+[01-01 18:12:22 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:hea rtbeat,stackDepth:2048,totalstackDepth:68608,priority:3
+[01-01 18:12:22 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:wk_ th-0,stackDepth:2560,totalstackDepth:71168,priority:3
+
+LwIP_DHCP: dhcp stop.
+Deinitializing WIFI ...
+WIFI deinitialized
+Initializing WIFI ...
+WIFI initialized
+[WIFI DEBUG]########### ap start chan:6...
+[WIFI DEBUG]######ap end...#######
+[01-01 18:12:23 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:udp _ap_v3,stackDepth:3584,totalstackDepth:74752,priority:5
+[01-01 18:12:23 TUYA Err][smart_frame.c:280] devid:▒▒▒ dparr[0]:17 not find, con tinue.
+[01-01 18:12:23 TUYA Err][smart_frame.c:327] no vaild dp need report.
+[01-01 18:12:23 TUYA Err][tuya_iot_com_api.c:812] dp composition fail.ret:-3585
+[01-01 18:12:23 TUYA Err][tuya_gw_user_dev_security.c:1256] dev_report_dp_json_a sync op_ret:-3585
+[01-01 18:12:31 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:off line_log_proc,stackDepth:2568,totalstackDepth:77320,priority:2
+
+RTL8195A[Driver]: +OnAuth: 84:3a:4b:00:99:48
+
+RTL8195A[Driver]: +OnAssocReq
+ip_table[100] = 0,0,0,0,0,0
+
+[17726] DHCP assign ip = 192.168.175.100
+[01-01 18:12:35 TUYA Info][uni_thread.c:202] tuya_hal_thread_create thrdname:mq_ monitor_proc,stackDepth:1024,totalstackDepth:78344,priority:2
+[01-01 18:12:35 TUYA Err][tuya_gw_user_dev_security.c:395] mode: is error.
+
+RTL8195A[Driver]: ap recv deauth reason code(3) sta:84:3a:4b:00:99:48
+[01-01 18:13:28 TUYA Notice][tuya_device.c:423] gw status changed to 0
+
+[01-01 18:13:29 TUYA Err][home_security.c:894] Will clear home security save dat a.
+tuya_hal_system_reset=▒xx▒▒▒p▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒p▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒p▒▒▒▒p~x▒▒▒▒▒▒▒▒▒▒▒▒▒p▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒p▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 
