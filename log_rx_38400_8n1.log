@@ -1,0 +1,21 @@
+=========================================================
+
+ROM Version: 0.3
+
+Build ToolChain Version: gcc version 4.8.3 (Realtek ASDK-4.8.3p1 Build 2003)
+
+=========================================================
+Check boot type form eFuse
+SPI Initial
+Image1 length: 0x3a18, Image Addr: 0x10000bc8
+Image1 Validate OK, Going jump to Image1
+BOOT from Flash:YES
+===== Enter Image 1 ====
+SDR Controller Init
+
+load NEW fw 1
+Flash Image2:Addr 0x177000, Len 283012, Load to SRAM 0x10006000
+Image3 length: 0x11fa04, Image3 Addr: 0x30000000
+Img2 Sign: RTKWin, InfaStart @ 0x10006189
+===== Enter Image 2 ====
+
